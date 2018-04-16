@@ -137,5 +137,34 @@ body {
 .main__info {
     display: flex;
     flex-direction: row;
+    margin-top: 3rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main__info__item {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__info__item__header {
+    color: white;
+    padding-left: 2rem;
+    background-color: black;
+}
+
+.main__info__item__header p {
+    margin: 1rem 0;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 4rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
